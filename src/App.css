@@ -1,0 +1,90 @@
+:root{
+  --bg-color: #151515;
+  --text-color: #d9d9d9;
+  --light-blue-color: #1E90FF;
+  --light-purple-color: #9370DB;
+  --blue-color: #223594;
+  --dark-blue-color: #0B1E3F;
+}
+
+
+html, body, #root { height: 100%; margin: 0; }
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+main {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+
+.start{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 100%;
+  color: white;
+}
+.start-left { 
+  padding: 64px 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background-color: var(--dark-blue-color);
+  border: var(--blue-color) 1px solid;
+  border-radius: 4px;
+
+  min-width: 0; 
+}
+.start-right { 
+  padding: 64px 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background-color: var(--dark-blue-color);
+  border: var(--blue-color) 1px solid;
+  border-radius: 4px;
+
+  min-width: 0; 
+}
+.start-brand { 
+  display: flex;
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 24px; margin-bottom: 40px; 
+}
+.brand-name { 
+  font-size: 30px; 
+  font-weight: 300; 
+  letter-spacing: 0.12em; 
+  color: var(--text-color); 
+  line-height: 1.1; 
+}
+
+.ascii-logo {
+  margin: 0;
+  flex: none;
+  font-family: var(--mono);
+  font-size: 5px;
+  line-height: 1.15;
+  white-space: pre;
+  color: var(--light-blue-color);
+  user-select: none;
+}
+
+.btn {
+  border: 0;
+  background: var(--dark-blue-color);
+  color: #fff;
+  padding: 4px 14px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn:hover { background: var(--blue-color); }

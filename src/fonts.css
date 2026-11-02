@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-Regular.ttf") format("truetype");
+    weight: normal;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-Bold.ttf") format("truetype");
+    weight: bold;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-Italic.ttf") format("truetype");
+    weight: normal;
+    style: italic;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-BoldItalic.ttf") format("truetype");
+    weight: bold;
+    style: italic;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-Medium.ttf") format("truetype");
+    weight: 500;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-MediumItalic.ttf") format("truetype");
+    weight: 500;
+    style: italic;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-Light.ttf") format("truetype");
+    weight: 300;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-LightItalic.ttf") format("truetype");
+    weight: 300;
+    style: italic;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-ExtraBold.ttf") format("truetype");
+    weight: 800;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-ExtraBoldItalic.ttf") format("truetype");
+    weight: 800;
+    style: italic;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-ExtraLight.ttf") format("truetype");
+    weight: 200;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-ExtraLightItalic.ttf") format("truetype");
+    weight: 200;
+    style: italic;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-Thin.ttf") format("truetype");
+    weight: 100;
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-ThinItalic.ttf") format("truetype");
+    weight: 100;
+    style: italic;
+}
