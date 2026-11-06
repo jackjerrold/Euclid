@@ -1,4 +1,5 @@
 import Logo from "./Logo";
+import TitleBar from "./titleBar";
 
 const recent = [
   { name: "bracket", path: "~/models/bracket", when: "Today" },
@@ -9,7 +10,9 @@ const recent = [
 
 export default function StartScreen({ onOpen }: { onOpen: (p: string) => void }) {
   return(
-    <main className="start">
+    <main>
+      <TitleBar />
+    <div className="start">
         <section className="start-left">  
           <div className="start-brand">
             <Logo />
@@ -43,6 +46,7 @@ export default function StartScreen({ onOpen }: { onOpen: (p: string) => void })
             ))}
           </ul> 
         </section>
+    </div>
     </main>
   )
 }
